@@ -14,5 +14,5 @@ jobs:
           distribution: temurin
           java-version: '21'
           cache: maven
-      - name: Build and test (no display needed: tests cover the data and service layers)
+      - name: Build and test (tests cover the data and service layers, no display needed)
         run: mvn -B verify
