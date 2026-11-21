@@ -1,0 +1,24 @@
+.root {
+    -fx-font-family: "System";
+    -fx-font-size: 13px;
+    -fx-base: #f4f5f7;
+    -fx-accent: #2f6fb3;
+}
+
+.toolbar {
+    -fx-background-color: #e8ebf0;
+}
+
+.heading {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 0 0 0;
+}
+
+.errors {
+    -fx-text-fill: #b3261e;
+}
+
+.table-view {
+    -fx-background-insets: 0;
+}
